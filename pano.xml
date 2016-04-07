@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama id="node1">
+    <input levelingroll="0" width="800" levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/01/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" height="800" levelingpitch="0">
+      <level width="800" predecode="0" preload="0" height="800"/>
+      <level width="400" predecode="1" preload="1" height="400"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70"/>
+      <min pan="-180" tilt="-63.0104" fov="5"/>
+      <max pan="180" tilt="63.0104" fov="120"/>
+    </view>
+    <userdata longitude="" info="" author="" comment="" datetime="" latitude="" title="" tags="pano tests" source="" description="" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" wordwrap="1" background="1" borderalpha="1" height="20" border="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_url" pan="-170.89" id="Point01" tilt="0.48" title="Window" target="_blank" description="Loction" url="https://www.google.co.uk/maps?q=welbeck+street+london&amp;oe=utf-8&amp;gws_rd=cr&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiA3MqmnPzLAhXBoQ4KHSJtBvsQ_AUIBygBhttps://www.google.co.uk/maps?q=welbeck+street+london&amp;oe=utf-8&amp;gws_rd=cr&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiA3MqmnPzLAhXBoQ4KHSJtBvsQ_AUIBygB"/>
+      <hotspot skinid="ht_image" pan="103.38" id="Point02" tilt="-2.86" title="Chair" target="" description="Image of chair options" url="images/chairs.jpg"/>
+      <hotspot skinid="ht_node" pan="114.4" id="Point03" tilt="-7.56" title="Pano02" target="95.6629/-0.0140715/70" description="Link to Pano02" url="{node2}"/>
+    </hotspots>
+    <media>
+      <video loop="3" tilt="4.100" rotx="3.000" ambientlevel="0.000" height="1080" roty="49.000" handcursor="0" width="1920" level="1.000" pansize="8.000" stretch="0.980" field="90.000" tiltsize="10.000" mode="2" clickmode="2" id="Element01" fov="12.570" pan="145.870" rotz="-3.000">
+        <source url="media/Intro.mp4"/>
+      </video>
+      <lensflare pan="160.77" type="3" color="0xffffff" id="Lensflare01" tilt="7.73" alpha="80" blinding="50"/>
+    </media>
+    <transition enabled="0" zoomout="0" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" blendtime="1" softedge="0" zoomin="0" blendcolor="0x000000"/>
+    <control sensitivity="8" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingroll="0" width="800" levelbiashidpi="0.400" overlap="1" leveltileurl="tiles/02/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" height="800" levelingpitch="0">
+      <level width="800" predecode="0" preload="0" height="800"/>
+      <level width="400" predecode="1" preload="1" height="400"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70"/>
+      <min pan="-180" tilt="-63.0104" fov="5"/>
+      <max pan="180" tilt="63.0104" fov="120"/>
+    </view>
+    <userdata longitude="-0.08531033992767334" info="" author="" comment="" datetime="" latitude="51.50973573744002" title="" tags="Pano2VR5" source="" description="" copyright=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label enabled="1" width="180" borderradius="1" textalpha="1" backgroundalpha="1" textcolor="0x000000" wordwrap="1" background="1" borderalpha="1" height="20" border="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff"/>
+      <polyhotspot id="Poly01" title="Breakout" target="-75.4275/2.66679/70" description="Link to pano01" url="{node1}">
+        <vertex pan="-80.88" tilt="2.19"/>
+        <vertex pan="-76.34" tilt="2.07"/>
+        <vertex pan="-76.32" tilt="-6.05"/>
+        <vertex pan="-81.07" tilt="-6.01"/>
+        <vertex pan="-80.98" tilt="2.69"/>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition enabled="0" zoomout="0" type="crossdissolve" zoomoutpause="1" zoomspeed="2" zoomfov="20" blendtime="1" softedge="0" zoomin="0" blendcolor="0x000000"/>
+    <control sensitivity="8" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" invertwheel="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1"/>
+  </panorama>
+</tour>
